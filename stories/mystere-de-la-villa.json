@@ -1,0 +1,217 @@
+{
+  "id": "mystere-de-la-villa",
+  "title": "Mystère à la villa des Alizés",
+  "description": "Un avocat influent est retrouvé mort dans la bibliothèque de sa villa, la porte étant verrouillée de l’intérieur.",
+  "difficulty": "Intermédiaire",
+  "duration": "70–90 min",
+  "caseFile": {
+    "victim": "Antoine Laroche, avocat d’affaires",
+    "event": "Découverte du corps au petit matin, suffocation par un coussin humidifié.",
+    "opening": "La villa est isolée par la pluie et la route d’accès est bloquée par un arbre tombé. Le groupe est coincé avec peu d’alliés et des tensions cachées.",
+    "profile": "Antoine dirigeait une étude influente, spécialisé dans les dossiers d’entreprises et de famille. Il a récemment reçu des menaces et des avances de plusieurs personnes de son cercle proche.",
+    "medical": "Aucun signe de lutte apparente. Le visage est resté intact, le coussin placé sur la bouche et le nez. Une légère concentration d’anxiolytiques a été retrouvée dans son verre de whisky.",
+    "scene": "Bibliothèque verrouillée de l’intérieur, fenêtre entrouverte sur le jardin ; traces de pas mélangées à la poussière sur le sol et une édition rare de Rousseau déplacée sur le fauteuil.",
+    "questions": [
+      "Qui a pu entrer sans laisser de trace ?",
+      "Pourquoi cette édition rare de Rousseau est-elle déplacée ?",
+      "Quel lien existe-t-il entre la victime et le partenaire financier disparu ?",
+      "Que voulait cacher le dossier qui se trouvait dans le bureau ?"
+    ],
+    "evidence": [
+      "Coussin humide",
+      "Page arrachée d’un journal intime",
+      "Clé de la porte de service",
+      "Tache de boue sur la semelle droite d’un soulier"
+    ]
+  },
+  "truth": "La personne coupable a utilisé la porte de service et a simulé l’illusion d’un huis clos pour masquer le vol du dossier le plus compromettant.",
+  "roles": [
+    {
+      "name": "Marion Genet",
+      "job": "Secrétaire",
+      "role": "Coupable",
+      "schedule": [
+        "18 h 10 — Vous arrivez à la villa avec le dossier d’un client précédent et un sac en cuir discret.",
+        "18 h 45 — Vous passez au bureau d’Antoine pour lui demander une signature urgente.",
+        "19 h 15 — Vous êtes vue par Victor dans le couloir, le visage fermé.",
+        "19 h 50 — Vous apprenez qu’Élise va revoir un contrat sensible et vous cachez votre nervosité.",
+        "20 h 05 — Vous vous retirez pour vérifier l’armoire à dossiers de service, où vous cachez vos propres pages copiées.",
+        "21 h 00 — Une porte de service grince à côté de vous, vous entendez des pas précipités.",
+        "21 h 20 — Vous jetez un coup d’œil à la bibliothèque et constatez qu’Antoine n’est pas encore revenu.",
+        "22 h 20 — Vous observez la bibliothèque et le coussin humide posé sur le fauteuil."
+      ],
+      "relations": "Vous travaillez depuis cinq ans pour Antoine. Il a confiance en vous pour les dossiers sensibles, mais votre famille dépend de cette archive depuis qu’il a fait une avance sur votre frère.",
+      "secrets": [
+        "Vous avez caché une copie du dossier qui condamnerait un partenaire de la victime.",
+        "Vous avez détourné une note de paiement prouvant qu’une menace avait été payée contre vous.",
+        "Vous avez eu un échange secret avec Antoine sur la vente d’un terrain familial incertain."
+      ],
+      "items": [
+        "Clé de la porte de service avec encore de la poussière blanche",
+        "Petit carnet de rendez-vous plié en deux contenant des heures et des noms barrés",
+        "Pochette d’agent portuaire avec un papier de transport égaré"
+      ],
+      "knows": [
+        "Vous savez qu’Antoine a reçu une lettre anonyme menaçant de dévoiler un vieux scandale.",
+        "Vous avez entendu Marc murmurer que quelqu’un verrait le dossier disparaître.",
+        "Vous connaissez le passage secret qui relie la cuisine à l’aile de service."
+      ],
+      "ignores": [
+        "Vous ignorez qui a laissé la porte du salon entrebâillée à 21 h 00.",
+        "Vous ignorez pourquoi le dictionnaire de Rousseau a été déplacé sur la table.",
+        "Vous ignorez si Antoine a vraiment signé les documents que vous avez retrouvés."
+      ],
+      "suspicions": "Vous gardez en tête qu’Élise a plus à perdre si le dossier est révélé, que Lucien a des raisons financières de faire taire Antoine, et que Théo cherche une histoire qui l’emmènerait loin de la presse locale.",
+      "isCulprit": true,
+      "isSuspect": false
+    },
+    {
+      "name": "Élise Marand",
+      "job": "Avocate associée",
+      "role": "Suspect",
+      "schedule": [
+        "18 h 00 — Vous consultez le dossier du client clé dans votre bureau privé.",
+        "18 h 50 — Vous discutez avec Antoine des clauses d’un contrat délicat.",
+        "19 h 35 — Vous sortez sur le balcon pour prendre l’air, la pluie martèle les vitres.",
+        "20 h 05 — Vous observez Marion revenir du couloir en portant un café.",
+        "20 h 20 — Vous travaillez sur une annotation dans le dossier que vous ne voulez pas que les autres voient.",
+        "21 h 10 — Vous êtes appelée à l’intérieur de la bibliothèque pour revoir un paragraphe.",
+        "22 h 00 — Vous entendez un bruit étouffé avant qu’Antoine ne s’effondre.",
+        "22 h 45 — Vous fouillez discrètement le bureau d’Antoine à la recherche d’un justificatif."
+      ],
+      "relations": "Associée d’Antoine depuis dix ans, vous avez bâti votre carrière à ses côtés. Votre image dépend de la stabilité du cabinet et d’un dossier que vous partagez.",
+      "secrets": [
+        "Vous avez falsifié une clause pour éviter une faillite personnelle.",
+        "Vous gardez une copie d’un échange secret entre Antoine et un concurrent impliquant un transfert suspect.",
+        "Vous avez reçu un mot de menace utilisé par un tiers pour vous faire pression."
+      ],
+      "items": [
+        "Pochette de contrat avec des taches de café",
+        "Clé de bureau gravée avec vos initiales",
+        "Bague d’argent discrète que vous portez depuis le scandale."
+      ],
+      "knows": [
+        "Vous avez vu la porte de service légèrement entrouverte à 21 h 00.",
+        "Vous avez entendu Marion évoquer une archive dissimulée.",
+        "Vous savez que Lucien cherchait un document confidentiel dans la bibliothèque."
+      ],
+      "ignores": [
+        "Vous ignorez pourquoi Antoine a demandé à ce que personne ne touche au journal intime.",
+        "Vous ignorez qui a écrit l’annotation anonyme sur votre dossier.",
+        "Vous ignorez si la lettre menaçante venait d’un client ou d’un associé."
+      ],
+      "suspicions": "Vous pensez que quelqu’un a voulu piéger Antoine sans que les autres sachent, et que Lucien cache un transfert suspect destiné à détourner le client."
+    },
+    {
+      "name": "Lucien Vautrin",
+      "job": "Banquier",
+      "role": "Suspect",
+      "schedule": [
+        "18 h 20 — Vous arrivez avec des documents bancaires urgents.",
+        "18 h 55 — Vous parlez de financement à long terme avec Antoine.",
+        "19 h 15 — Vous croisez Marion près de la bibliothèque, elle semble pressée.",
+        "19 h 40 — Vous échangez un regard inquiet avec Marion près de la bibliothèque.",
+        "20 h 10 — Vous inspectez rapidement la bibliothèque, cherchant un relevé.",
+        "21 h 15 — Vous entendez l’alarme de l’entrée se déclencher avant qu’un silence ne revienne.",
+        "21 h 55 — Vous remarquez des traces de boue sur le seuil de la porte de service.",
+        "22 h 35 — Vous reprenez votre rapport et notez un détail qui ne cadre pas."
+      ],
+      "relations": "Prêteur et conseiller financier d’Antoine, vous suivez ses projets de très près. Votre institution dépend également des réussites du cabinet.",
+      "secrets": [
+        "Vous avez garé votre voiture sur le chemin de service pour éviter les averses.",
+        "Vous détenez une copie d’un virement non autorisé entre Antoine et un associé.",
+        "Vous possédez une facture cachée qui prouve un chèque versé à une tierce personne."
+      ],
+      "items": [
+        "Pochette de relevés bancaires contenant un reçu effacé",
+        "Bouton de manchette gravé tombé près de l’entrée",
+        "Stylo-plume de luxe fissuré que vous avez laissé dans le salon."
+      ],
+      "knows": [
+        "Vous avez vu une empreinte humide près de la porte de service.",
+        "Vous avez entendu un message vocal menaçant sur le téléphone d’Antoine.",
+        "Vous savez qu’Antoine négociait un prêt risqué avec un client externe."
+      ],
+      "ignores": [
+        "Vous ignorez qui a fait disparaître l’enveloppe de la comptabilité.",
+        "Vous ignorez pourquoi le coffre de la bibliothèque était ouvert à 20 h 10.",
+        "Vous ignorez si le dossier en question était destiné à payer une dette personnelle."
+      ],
+      "suspicions": "Vous avez l’impression que quelqu’un a voulu impliquer le banquier dans cette affaire pour détourner l’attention du vrai mobile."
+    },
+    {
+      "name": "Hélène Duval",
+      "job": "Domestic",
+      "role": "Suspect",
+      "schedule": [
+        "18 h 15 — Vous commencez à préparer le dîner dans la cuisine.",
+        "18 h 50 — Vous entendez Antoine parler au téléphone dans sa bibliothèque.",
+        "19 h 25 — Vous servez une boisson à Élise dans le salon.",
+        "20 h 05 — Vous changez un coussin du salon pour qu’il soit propre.",
+        "20 h 20 — Vous montez chercher un plateau que vous aviez oublié dans la cuisine.",
+        "21 h 00 — Vous apercevez une silhouette quitter la cuisine en courant.",
+        "21 h 40 — Vous nettoyez une tache sombre sur la moquette du couloir.",
+        "22 h 10 — Vous cherchez le couteau que vous aviez posé dans le tiroir."
+      ],
+      "relations": "Vous travaillez pour la famille depuis deux ans et vous avez toujours veillé à maintenir la maison impeccable. Antoine vous a confié un rôle de confiance malgré les tensions dans le foyer.",
+      "secrets": [
+        "Vous avez vu des documents personnels d’Antoine laissés en évidence.",
+        "Vous avez découvert un reçu de paiement bizarre caché dans un tiroir.",
+        "Vous avez entendu une dispute silencieuse entre Antoine et un visiteur la semaine précédente."
+      ],
+      "items": [
+        "Gant humide trouvé près de la porte de service",
+        "Serviette tachée que vous n’arrivez pas à expliquer",
+        "Clé de service que vous aviez prêtée à un livreur plus tôt dans la soirée."
+      ],
+      "knows": [
+        "Vous savez qu’une fenêtre de service n’était pas complètement fermée.",
+        "Vous avez entendu quelqu’un murmurer le mot 'accord' dans le couloir à 21 h 00.",
+        "Vous savez qu’une chambre du personnel restait fermée à clé depuis l’après-midi."
+      ],
+      "ignores": [
+        "Vous ignorez pourquoi le couteau de cuisine ne se trouve plus à sa place.",
+        "Vous ignorez l’identité de la personne qui a déplacé le coussin du fauteuil.",
+        "Vous ignorez comment la boue est arrivée sur le seuil sans que personne ne s’en rende compte."
+      ],
+      "suspicions": "Vous craignez que quelqu’un de l’intérieur ait profité de votre absence pour manipuler la scène, et que la vraie cible était le dossier plutôt qu’Antoine lui-même."
+    },
+    {
+      "name": "Théo Bernard",
+      "job": "Journalist",
+      "role": "Suspect",
+      "schedule": [
+        "18 h 05 — Vous arrivez pour interviewer Antoine au sujet d’un dossier brûlant.",
+        "18 h 35 — Vous relisez vos notes dans le salon principal.",
+        "19 h 10 — Vous entendez des voix fortes venant de la bibliothèque.",
+        "20 h 00 — Vous empruntez un stylo à Élise pour noter un détail.",
+        "20 h 25 — Vous remarquez qu’une édition rare de Rousseau a été déplacée.",
+        "21 h 20 — Vous voyez Lucien quitter la bibliothèque à pas pressés.",
+        "21 h 55 — Vous remarquez une odeur de parfum inhabituel près du bureau.",
+        "22 h 30 — Vous vous approchez de la bibliothèque, la porte est fermée."
+      ],
+      "relations": "Vous avez publié des articles sur les scandales financiers et Antoine était sur le point de vous confier une exclusivité majeure. Vous êtes persuadé que cette soirée va bouleverser votre carrière.",
+      "secrets": [
+        "Vous avez acheté une carte mémoire que vous cachez dans votre veste.",
+        "Vous conservez un enregistrement secret d’une conversation tendue entre Antoine et un visiteur.",
+        "Vous avez déjà vendu une information à un tabloid qui pourrait ruiner un des convives."
+      ],
+      "items": [
+        "Carnet de notes contenant des questions non posées",
+        "Stylo plume à l’encre rouge que vous avez emprunté à Élise",
+        "Magnétophone discret rangé dans votre sac photo."
+      ],
+      "knows": [
+        "Vous avez vu une page manquante dans le journal intime d’Antoine.",
+        "Vous savez qu’Antoine attendait quelqu’un qui ne s’est jamais présenté.",
+        "Vous avez entendu un nom cité en secret par Antoine à 19 h 10."
+      ],
+      "ignores": [
+        "Vous ignorez pourquoi le livre de Rousseau a été déplacé sur la chaise.",
+        "Vous ignorez qui a touché le coussin humide avant que le corps soit découvert.",
+        "Vous ignorez si Antoine a bu avant que sa boisson soit trouvée sur la table."
+      ],
+      "suspicions": "Vous êtes persuadé qu’une piste journalistique a été étouffée avant même le meurtre, et que quelqu’un de la villa a volontairement détourné l’attention de la vérité."
+    }
+  ]
+}
